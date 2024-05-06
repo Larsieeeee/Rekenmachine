@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rekenmachine</title>
-    <link type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-    
+    <section>
+        <input type="text" id="rekenmachine">
+        <div id="nummer">
+            <button type="button" onclick="number()">1</button>
+            <button type="button" onclick="number()">2</button>
+            <button type="button" onclick="number()">3</button>
+            <button type="button" onclick="number()">4</button>
+            <button type="button" onclick="number()">5</button>
+            <button type="button" onclick="number()">6</button>
+            <button type="button" onclick="number()">7</button>
+            <button type="button" onclick="number()">8</button>
+            <button type="button" onclick="number()">9</button>
+            <button type="button" onclick="number()">0</button>
+        </div>
+            <div id="reken">
+                <button type="button" onclick="calculate()">.</button>
+                <button type="button" onclick="calculate()">:</button>
+                <button type="button" onclick="calculate()">x</button>
+                <button type="button" onclick="calculate()">-</button>
+                <button type="button" onclick="calculate()">+</button>
+                <button type="button" onclick="calculate()">=</button>
+            </div>
+            <div id="delete">
+                <button type="button" onclick="del()">c</button>
+            </div>
+    </section>
 </body>
 </html>
