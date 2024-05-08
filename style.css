@@ -1,0 +1,58 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    height: 430px;
+    width: 370px;
+    padding: 20px 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+input{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    height: 50px;
+    width: 350px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: gray;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 20px;
+}
+
+#reken button{
+
+    font-size: 20px;
+    width: 70px;
+    justify-content: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.kaartbtn{
+    background-color: orange;
+}
