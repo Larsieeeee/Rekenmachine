@@ -1,12 +1,11 @@
 *{
     margin-top: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    height: 430px;
-    width: 370px;
-    padding: 20px 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,28 +21,44 @@ section{
     border-radius: 10px;
 }
 
+#rekenmachine {
+    width: 292px;
+}
+
 input{
-    background-color: white;
-    border-style: solid;
-    border-color: white;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
     font-size: 20px;
-    border-radius: 50px;
-    height: 50px;
-    width: 350px;
+    border-radius: 20px;
+    height: 100px;
+    width: 292px;
     padding-left: 15px;
     margin-bottom: 10px;
 }
 
 button{
     background-color: gray;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     color: white;
     padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+.reken {
+    width: 317px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: start;
+}
+
+.operators {
+    width: 100%;
 }
 
 #reken button{
-
     font-size: 20px;
     width: 70px;
     justify-content: center;
@@ -54,5 +69,14 @@ button:hover{
 }
 
 .kaartbtn{
+    display: flex;
     background-color: orange;
+}
+
+#reken .bbutton{
+    width: 144px;
+}
+
+#reken .Cbutton{
+    margin-left: 148px;
 }
