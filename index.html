@@ -11,24 +11,29 @@
     <section>
     <div id="rekenmachine">
         <input id="kaart" readonly>
-        <div id="reken">
-            <button onclick="number('1')">1</button>
-            <button onclick="number('2')">2</button>
-            <button onclick="number('3')">3</button>
-            <button onclick="number('4')">4</button>
-            <button onclick="number('5')">5</button>
-            <button onclick="number('6')">6</button>
-            <button onclick="number('7')">7</button>
-            <button onclick="number('8')">8</button>
-            <button onclick="number('9')">9</button>
-            <button onclick="number('0')">0</button>
-            <button onclick="number('.')" class="kaartbtn">.</button>
-            <button onclick="number('/')" class="kaartbtn">:</button>
-            <button onclick="number('*')" class="kaartbtn">x</button>
-            <button onclick="number('-')" class="kaartbtn">-</button>
-            <button onclick="number('+')" class="kaartbtn">+</button>
-            <button onclick="cal()">=</button>
-            <button onclick="del()">C</button>
+        <div id="reken" class="reken">
+            <div class="numbers">
+                <button onclick="del()" class="Cbutton">C</button>
+                <br>
+                <button onclick="number('7')">7</button>
+                <button onclick="number('8')">8</button>
+                <button onclick="number('9')">9</button>
+                <button onclick="number('4')">4</button>
+                <button onclick="number('5')">5</button>
+                <button onclick="number('6')">6</button>
+                <button onclick="number('1')">1</button>
+                <button onclick="number('2')">2</button>
+                <button onclick="number('3')">3</button>
+                <button onclick="number('0')" class="bbutton">0</button>
+                <button onclick="number('.')">,</button>
+
+            </div>
+            <div class="operators">
+                <button onclick="number('/')" class="kaartbtn">:</button>
+                <button onclick="number('*')" class="kaartbtn">x</button>
+                <button onclick="number('-')" class="kaartbtn">-</button>
+                <button onclick="number('+')" class="kaartbtn">+</button>
+                <button onclick="cal()" class="kaartbtn">=</button>
             </div>
         </div>
     </section>
